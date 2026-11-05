@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-    static void n eis Main(string[] args)
+    static void Main(string[] args)
     {
         Console.Write("What is the magic number? ");
         int magicNumber = int.Parse(Console.ReadLine());
@@ -21,10 +21,12 @@ class Program
             {
                 Console.WriteLine("Higher");
             }
+
             else if (magicNumber < guess)
             {
                 Console.WriteLine("Lower");
             }
+            
             else
             {
                 Console.WriteLine("You guessed it!");
